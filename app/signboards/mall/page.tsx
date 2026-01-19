@@ -4,12 +4,12 @@ import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
 
 const mallImages = [
-  "/assets/mall/1.png",
-  "/assets/mall/2.png",
-  "/assets/mall/3.png",
-  "/assets/mall/4.png",
-  "/assets/mall/5.png",
-  "/assets/mall/6.png",
+  "/Assets/mall/1.png",
+  "/Assets/mall/2.png",
+  "/Assets/mall/3.png",
+  "/Assets/mall/4.png",
+  "/Assets/mall/5.png",
+  "/Assets/mall/6.png",
 ];
 
 export default function MallSignboards() {

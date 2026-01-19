@@ -5,6 +5,13 @@ import ImageLightbox from "../../Components/ImageLightbox";
 
 export default function VehicleBrandingMini() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+const images = [
+    "/Assets/vehicle/1.png",
+    "/Assets/vehicle/2.png",
+    "/Assets/vehicle/3.png",
+    "/Assets/vehicle/4.png",
+    
+];
 
   return (
     <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-16">

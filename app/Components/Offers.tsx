@@ -112,7 +112,7 @@ export default function OffersSection() {
     {
       id: 1,
       name: "Business Cards",
-      image: "/Assets/Images/Offset1.png",
+      image: "/Assets/Images/offset1.png",
       description:
         "Premium quality business cards that leave a lasting impression. Glossy or matte finish options available.",
       features: ["1000 Cards", "Full Color Print", "Glossy / Matte", "Custom Designs"],

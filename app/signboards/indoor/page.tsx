@@ -5,14 +5,14 @@ import ImageLightbox from "../../Components/ImageLightbox";
 
 
 const indoorSignboardsImages = [
-  "/assets/indoor/1.png",
-  "/assets/indoor/2.png",
-  "/assets/indoor/3.png",
-  "/assets/indoor/4.png",
-  "/assets/indoor/5.png",
-  "/assets/indoor/6.png",
-  "/assets/indoor/7.png",
-  "/assets/indoor/8.png",
+  "/Assets/indoor/1.png",
+  "/Assets/indoor/2.png",
+  "/Assets/indoor/3.png",
+  "/Assets/indoor/4.png",
+  "/Assets/indoor/5.png",
+  "/Assets/indoor/6.png",
+  "/Assets/indoor/7.png",
+  "/Assets/indoor/8.png",
 ];
 
 export default function IndoorSignboards() {
