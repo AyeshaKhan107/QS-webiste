@@ -4,16 +4,16 @@ import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
 
 const acrylicSignboards = [ 
-  "/assets/acrylic/1.png",
-  "/assets/acrylic/2.png",
-  "/assets/acrylic/3.png",
-  "/assets/acrylic/4.png",
-  "/assets/acrylic/5.png",
-  "/assets/acrylic/6.png",
-  "/assets/acrylic/7.png",
-  "/assets/acrylic/8.png",
-  "/assets/acrylic/9.png",
-  "/assets/acrylic/10.png",
+  "/Assets/acrylic/1.png",
+  "/Assets/acrylic/2.png",
+  "/Assets/acrylic/3.png",
+  "/Assets/acrylic/4.png",
+  "/Assets/acrylic/5.png",
+  "/Assets/acrylic/6.png",
+  "/Assets/acrylic/7.png",
+  "/Assets/acrylic/8.png",
+  "/Assets/acrylic/9.png",
+  "/Assets/acrylic/10.png",
 ];
 
 export default function AcrylicSignboards() {
@@ -52,7 +52,7 @@ export default function AcrylicSignboards() {
               <div className="relative h-48 w-full">
                 <Image
                   src={src}
-                  alt ={`Acrylic Signboard ${index + 1}`}
+                  alt ={``}
                   fill
                   className="object-cover"
                 />

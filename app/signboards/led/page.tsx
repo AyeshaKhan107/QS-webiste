@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function LedSignboardsPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const images = [
-    "/images/signboards/led/led1.jpg",
-    "/images/signboards/led/led2.jpg",
-    "/images/signboards/led/led3.jpg",
-    "/images/signboards/led/led4.jpg",
+    "/Assets/images/signboards/led/led1.jpg",
+    "/Assets/images/signboards/led/led2.jpg",
+    "/Assets/images/signboards/led/led3.jpg",
+    "/Assets/images/signboards/led/led4.jpg",
   ];
 
   return (

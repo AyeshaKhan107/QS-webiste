@@ -5,14 +5,14 @@ import ImageLightbox from "../../Components/ImageLightbox";
 
 
 const flexSignboards = [
-  "/assets/flex/1.png",
-  "/assets/flex/2.png",
-  "/assets/flex/3.png",
-  "/assets/flex/4.png",
-  "/assets/flex/5.png",
-  "/assets/flex/6.png",
-  "/assets/flex/7.png",
-  "/assets/flex/8.png",
+  "/Assets/flex/1.png",
+  "/Assets/flex/2.png",
+  "/Assets/flex/3.png",
+  "/Assets/flex/4.png",
+  "/Assets/flex/5.png",
+  "/Assets/flex/6.png",
+  "/Assets/flex/7.png",
+  "/Assets/flex/8.png",
 ];
 
 export default function FlexSignboards() {
@@ -65,7 +65,7 @@ export default function FlexSignboards() {
             >
               <Image
                 src={src}
-                alt={`Flex Signboard ${index + 1}`}
+                alt={``}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />

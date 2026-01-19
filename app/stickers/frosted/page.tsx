@@ -6,6 +6,12 @@ import ImageLightbox from "../../Components/ImageLightbox";
 
 export default function FrostedStickers() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const images = [
+    "/Assets/frosted/1.png",
+    "/Assets/frosted/2.png",
+    "/Assets/frosted/3.png",
+    "/Assets/frosted/4.png"
+  ];
 
   return (
     <>

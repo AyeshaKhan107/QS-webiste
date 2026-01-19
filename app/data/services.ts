@@ -49,14 +49,14 @@ export const services: Service[] = [
     slug: "safety-signboard",
     title: "Safety Signage",
     description: "Prioritize safety with our highly visible and durable safety signboards, designed to protect your employees and customers.",
-    image: "/Assets/Images/safety1.png",
+    image: "/Assets/images/safety1.png",
   },
   {
     id: 7,
     slug: "building-ss-plate-nameplate",
     title: "Building SS Plate, Name Plate",
     description: "Personalize your space with elegant name plate signboards that combine functionality with a touch of sophistication.",
-    image: "/Assets/Images/nameplate1.png",
+    image: "/Assets/images/nameplate1.png",
   },
   {
     id: 8,
@@ -70,14 +70,14 @@ export const services: Service[] = [
     slug: "direction-signboard",
     title: "Direction Signage",
     description: "Guide your visitors effortlessly with clear and professional direction signboards, ensuring a smooth experience.",
-    image: "/Assets/Images/direction.png",
+    image: "/Assets/images/direction.png",
   },
   {
     id: 10,
     slug: "flexible-led-signboard",
     title: "Flexible LED Signage",
     description: "Illuminate your brand with flexible LED signboards, offering bright, energy-efficient solutions that captivate attention.",
-    image: "/Assets/Images/flexible.png",
+    image: "/Assets/images/flexible.png",
   },
   {
     id: 11,
@@ -98,7 +98,7 @@ export const services: Service[] = [
     slug: "digital-signboard",
     title: "Digital Signage",
     description: "Engage your audience with dynamic digital signboards that allow for customizable, high-impact messaging.",
-    image:"/Assets/Images/digital.png",
+    image:"/Assets/images/digital.png",
   },
   {
     id: 14,

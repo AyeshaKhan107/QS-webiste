@@ -5,11 +5,11 @@ import Link from "next/link";
 import ImageLightbox from "../../Components/ImageLightbox";
 export default function NeonSignsPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const images = [
-    "/assets/neon/1.png",
-    "/assets/neon/2.png",
-    "/assets/neon/3.png",
-    "/assets/neon/4.png",
+  const neonimages = [
+    "/Assets/neon/1.png",
+    "/Assets/neon/2.png",
+    "/Assets/neon/3.png",
+    "/Assets/neon/4.png",
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function NeonSignsPage() {
 
         {/* Right side images 2x2 grid */}
         <div className="md:w-1/2 grid grid-cols-2 gap-4">
-          {images.map((img, i) => (
+          {neonimages.map((img, i) => (
             <div key={i} className="relative rounded-xl overflow-hidden shadow-lg h-40 md:h-48" onClick={() => setSelectedImage(img)}>
               <Image
                 src={img}

@@ -4,12 +4,12 @@ import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
 
 const rooftopSignboards = [
-  "/assets/rooftop/1.png",
-  "/assets/rooftop/2.png",
-  "/assets/rooftop/3.png",
-  "/assets/rooftop/4.png",
-  "/assets/rooftop/5.png",
-  "/assets/rooftop/6.png",
+  "/Assets/rooftop/1.png",
+  "/Assets/rooftop/2.png",
+  "/Assets/rooftop/3.png",
+  "/Assets/rooftop/4.png",
+  "/Assets/rooftop/5.png",
+  "/Assets/rooftop/6.png",
 ];
 
 export default function RooftopSignboards() {
@@ -37,10 +37,10 @@ export default function RooftopSignboards() {
               onClick={() => setSelectedImage(src)}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
-              <div className="relative h-50 w-full">
+              <div className="relative h-52 w-full">
                 <Image
                   src={src}
-                  alt={`srooftop Signboard ${index + 1}`}
+                  alt={`rooftop Signboard ${index + 1}`}
                   fill
                   className="object-cover"
                 />

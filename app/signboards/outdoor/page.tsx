@@ -4,14 +4,14 @@ import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
 
 const images = [
-  "/assets/outdoor/1.png",
-  "/assets/outdoor/2.png",
-  "/assets/outdoor/3.png",
-  "/assets/outdoor/4.png",
-  "/assets/outdoor/6.png",
-  "/assets/outdoor/5.png",
-  "/assets/outdoor/7.png",
-  "/assets/outdoor/8.png",
+  "/Assets/outdoor/1.png",
+  "/Assets/outdoor/2.png",
+  "/Assets/outdoor/3.png",
+  "/Assets/outdoor/4.png",
+  "/Assets/outdoor/6.png",
+  "/Assets/outdoor/5.png",
+  "/Assets/outdoor/7.png",
+  "/Assets/outdoor/8.png",
 ];
 
 export default function OutdoorSignboards() {
@@ -88,7 +88,7 @@ export default function OutdoorSignboards() {
 
         {/* BOTTOM : 2 Images Center */}
         <div className="flex justify-center gap-6">
-          {images.slice(8, 10).map((img, i) => (
+          {images.slice(6, 8).map((img, i) => (
             <div
               key={i}
               className="relative w-60 h-40 rounded-2xl overflow-hidden"

@@ -31,7 +31,7 @@ export default function IndoorSignboards() {
             >
               <Image
                 src={src}
-                alt={`images of indoor signboard ${index + 1}`}
+                alt={``}
                 fill
                 className="object-cover"
               />

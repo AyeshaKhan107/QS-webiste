@@ -4,12 +4,12 @@ import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
 
 const parkingSignboards = [
- "/assets/parking/1.png",
- "/assets/parking/2.png",
- "/assets/parking/3.png",
- "/assets/parking/4.png",
- "/assets/parking/5.png",
- "/assets/parking/6.png",
+ "/Assets/parking/1.png",
+ "/Assets/parking/2.png",
+ "/Assets/parking/3.png",
+ "/Assets/parking/4.png",
+ "/Assets/parking/5.png",
+ "/Assets/parking/6.png",
 ];
 
 export default function ParkingSignboards() {
