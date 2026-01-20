@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
@@ -6,12 +7,18 @@ import ImageLightbox from "../../Components/ImageLightbox";
 export default function Sticker() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  const images = [
+    "/Assets/stickers/1.png",
+    "/Assets/stickers/2.png",
+    "/Assets/stickers/3.png",
+    "/Assets/stickers/4.png",
+  ];
+
   return (
     <section className="w-full min-h-screen bg-white px-4 sm:px-6 lg:px-8 py-16 flex items-center">
       
-      {/* Content Wrapper */}
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        
+
         {/* Left Content */}
         <div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-primary">
@@ -34,28 +41,31 @@ export default function Sticker() {
 
         {/* Right Images */}
         <div className="grid grid-cols-2 gap-4">
-          {["1", "2", "3", "4"].map((img) => (
+          {images.map((imgSrc, index) => (
             <div
-              key={img}
-              className="relative aspect-square overflow-hidden rounded-2xl shadow-md"
+              key={index}
+              className="relative aspect-square overflow-hidden rounded-2xl shadow-md cursor-pointer"
             >
               <Image
-                onClick={() => setSelectedImage(`/assets/stickers/${img}.png`)}
-                src={`/assets/stickers/${img}.png`}
-                alt={`Sticker branding sample ${img}`}
+                src={imgSrc}
+                alt={``}
                 fill
-                className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                onClick={() => setSelectedImage(imgSrc)}
+                className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
         </div>
 
       </div>
+
       {/* Fullscreen Lightbox */}
-      <ImageLightbox
-        src={selectedImage}
-        onClose={() => setSelectedImage(null)}
-      />
+      {selectedImage && (
+        <ImageLightbox
+          src={selectedImage}
+          onClose={() => setSelectedImage(null)}
+        />
+      )}
     </section>
   );
 }

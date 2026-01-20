@@ -30,9 +30,9 @@ export default function OurExpertise() {
               visibility and brand consistency.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-gray-700">
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Custom fabrication</li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Weatherproof materials</li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> LED & illumination options</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Custom fabrication</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Weatherproof materials</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> LED & illumination options</li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ export default function OurExpertise() {
               your identity across touchpoints.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-gray-700">
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Logo & identity
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Logo & identity
               </li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Vehicle & fleet graphics</li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Visual merchandising</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Vehicle & fleet graphics</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Visual merchandising</li>
             </ul>
           </div>
 
@@ -69,9 +69,9 @@ export default function OurExpertise() {
               projects delivered on time and to spec.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-gray-700">
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Site surveys & permits</li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Skilled installation teams</li>
-              <li className="flex items-start gap-2"><FiCheckSquare className="text-green-500 mt-0.5" /> Aftercare & support</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Site surveys & permits</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Skilled installation teams</li>
+              <li className="flex items-start gap-2"><FiCheckSquare className="text-[#f7931e] mt-0.5" /> Aftercare & support</li>
             </ul>
           </div>
         </div>

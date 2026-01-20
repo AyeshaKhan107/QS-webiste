@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import ImageLightbox from "../../Components/ImageLightbox";
@@ -6,12 +7,16 @@ import ImageLightbox from "../../Components/ImageLightbox";
 export default function OneVisionStickers() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  const images = [
+    "/Assets/ov/1.png",
+    "/Assets/ov/2.png",
+    "/Assets/ov/3.png",
+  ];
+
   return (
     <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-16 min-h-screen">
-      
-      {/* Content Wrapper */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        
+
         {/* Left Content */}
         <div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-primary">
@@ -32,29 +37,32 @@ export default function OneVisionStickers() {
         </div>
 
         {/* Right Images */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          {["1", "2", "3"].map((img) => (
+        <div className="grid grid-cols-2 gap-4">
+          {images.map((imgSrc, index) => (
             <div
-              key={img}
-              className="relative aspect-[3/4] overflow-hidden rounded-xl shadow-md"
+              key={index}
+              className="relative aspect-square overflow-hidden rounded-2xl shadow-md cursor-pointer"
             >
               <Image
-                onClick={() => setSelectedImage(`/assets/ov/${img}.png`)}
-                src={`/assets/ov/${img}.png`}
-                alt={`OneVision sticker ${img}`}
+                src={imgSrc}
+                alt={``}
                 fill
-                className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                onClick={() => setSelectedImage(imgSrc)}
+                className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
         </div>
 
       </div>
-        {/* Fullscreen Lightbox */}
-            <ImageLightbox
-              src={selectedImage}
-              onClose={() => setSelectedImage(null)}
-            />
+
+      {/* Fullscreen Lightbox */}
+      {selectedImage && (
+        <ImageLightbox
+          src={selectedImage}
+          onClose={() => setSelectedImage(null)}
+        />
+      )}
     </section>
   );
 }
