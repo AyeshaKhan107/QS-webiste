@@ -12,11 +12,15 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const verification = "google-site-verification=D39ajRZ0aA79Z8xjr_8ibun2gSGYDTz2ITd2fjbXrMg";
 
 export const metadata: Metadata = {
   title: "Qamar Advertising - Signboards and Stickers in UAE",
   description:
     "Qamar Advertising is a leading signage making company in Sharjah, UAE, specializing in high-quality signboards and stickers for businesses. Contact us for custom solutions.",
+  verification: {
+    google: verification,
+  },
 };
 
 export default function RootLayout({
