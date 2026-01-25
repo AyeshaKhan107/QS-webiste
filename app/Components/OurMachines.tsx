@@ -203,7 +203,7 @@ export default function EquipmentShowcase() {
     },
     {
       id: 3,
-      name: "Vinyl Printing Machine",
+      name: "Vinyl Cutting Machine",
       image: "/Assets/machines/image2.png",
       description: "Precision cutting for vinyl sheets and decals."
     },

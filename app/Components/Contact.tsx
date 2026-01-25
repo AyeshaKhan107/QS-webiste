@@ -70,8 +70,8 @@ export default function Contact()
                 <div>
                   <h4 className="text-sm font-semibold text-gray-900">Phone</h4>
                   <div className="mt-1 text-blue-900">
-                    <a href="tel:+971588094235" className="block hover:underline">+971 588 094 235</a>
                     <a href="tel:+971563478120" className="block hover:underline">+971 563 478 120</a>
+                    <a href="tel:+971588094235" className="block hover:underline">+971 588 094 235</a>
                   </div>
                 </div>
               </div>
