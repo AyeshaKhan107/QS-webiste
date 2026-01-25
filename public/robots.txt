@@ -1,7 +1,3 @@
-# ==============================
-# robots.txt for SEO & Marketing
-# ==============================
-
 # Applies to all search engines
 User-agent: *
 
@@ -10,13 +6,6 @@ Disallow:
 
 # Block private or sensitive folders
 Disallow: /admin/
-Disallow: /login/
-Disallow: /register/
-Disallow: /api/
-
-# Optional: block query parameters that may create duplicate content
-Disallow: /*?utm_*
-Disallow: /*?ref=*
 
 # Crawl-delay (optional, to reduce server load)
 Crawl-delay: 5
