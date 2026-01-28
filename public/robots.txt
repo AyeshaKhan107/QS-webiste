@@ -1,20 +1,18 @@
 # Applies to all search engines
 User-agent: *
 
-# Allow everything by default
+# Allow crawling of everything by default
 Disallow:
 
 # Block private or sensitive folders
 Disallow: /admin/
 
-# Crawl-delay (optional, to reduce server load)
+# Optional: slow down crawling to reduce server load
 Crawl-delay: 5
 
-# Sitemap location (important for SEO)
-Sitemap: https://yourdomain.com/sitemap.xml
+# Sitemap location (very important for SEO)
+Sitemap: https://www.qamaradv-uae.com/sitemap.xml
 
-# Optional: specify important pages to prioritize
-# Note: search engines usually discover pages via sitemap,
-# but you can hint via robots.txt
+# Optional hints (Google mainly uses sitemap, but you can hint important pages)
 # Allow: /products/
 # Allow: /blog/
