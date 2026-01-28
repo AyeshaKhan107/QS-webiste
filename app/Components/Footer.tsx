@@ -64,7 +64,7 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold mb-3">Contact</h4>
               <div className="flex flex-col gap-2 text-gray-300 text-sm">
-                <a href="tel:+971502040101" className="flex items-center gap-2 hover:text-white"><Phone className="w-4 h-4" /> +971 588094235</a>
+                <a href="tel:+971563478120" className="flex items-center gap-2 hover:text-white"><Phone className="w-4 h-4" /> +971 563478120</a>
                 <a href="mailto:sales@qamaradv.com" className="flex items-center gap-2 hover:text-white"><Mail className="w-4 h-4" /> qamaradvertising815@gmail.com</a>
                 <span className="text-sm text-gray-400">Industrial Area 13, Sharjah</span>
               </div>
