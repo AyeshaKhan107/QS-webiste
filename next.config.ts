@@ -9,6 +9,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+
+  // ✅ sitemap redirect
+  async redirects() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
