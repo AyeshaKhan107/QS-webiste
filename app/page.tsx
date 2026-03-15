@@ -11,7 +11,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import SocialMediaIcons from './Components/SocialMediaIcons';
 import Carousel from './Components/Carousel';
-import Offers from './Components/Offers';
+// import Offers from './Components/Offers';
 import OurMachines from './Components/OurMachines';
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
     <div className="min-h-screen">
       <TopBar />
       <Hero />
-      <Offers />
+      {/* <Offers /> */}
       <Services />
       <About />
       <WhyChoose />

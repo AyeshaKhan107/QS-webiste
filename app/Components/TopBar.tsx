@@ -37,7 +37,7 @@ export default function TopBar() {
   const contacts = [
     {
       type: "phone",
-      value: "+971588094235",
+      value: "+971563478120",
       icon: <Phone className="w-4 h-4" />,
     },
     {

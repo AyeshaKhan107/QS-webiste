@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import clientPromise from "../../lib/mongodb";
 
 
-export async function GET(req) {
+export async function GET(req) { 
   try {
     const auth = req.headers.get("authorization");
 

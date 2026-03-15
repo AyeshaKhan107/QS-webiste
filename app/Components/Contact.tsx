@@ -100,7 +100,6 @@ export default function Contact()
                   <h4 className="text-sm font-semibold text-gray-900">Address</h4>
                   <p className="mt-1 text-gray-700">
                     Qamar Advertising<br />
-                    Industrial Area 13<br />
                     Sharjah, United Arab Emirates
                   </p>
                 </div>
